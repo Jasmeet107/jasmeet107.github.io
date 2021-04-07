@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-member-accessibility */
 import '@fontsource/catamaran'
+import '@fontsource/quicksand'
+
 import * as React from 'react'
 import * as styles from './styles.module.scss'
 import Descriptor from '../Descriptor'
@@ -65,12 +67,8 @@ class Subtitle extends React.PureComponent {
 
   softwareEngineerDescriptorText = [
     {
-      text: 'software ',
+      text: 'software engineer',
       link: 'https://www.linkedin.com/in/arorajasmeet/',
-    },
-    {
-      text: 'engineer',
-      link: 'https://github.com/Jasmeet107',
     },
     {
       text: ' at ',
@@ -101,10 +99,9 @@ class Subtitle extends React.PureComponent {
 
   photographerDescriptorText = [
     {
-      text: 'amateur',
+      text: 'amateur photographer',
       link: 'https://500px.com/p/jasmeet107?view=photos',
     },
-    { text: 'photographer', link: 'https://www.instagram.com/jasmeet107/' },
   ]
   contactMe = [
     {

@@ -10,6 +10,9 @@ class Contact extends React.PureComponent {
     { text: 'linkedin', link: 'https://www.linkedin.com/in/arorajasmeet/' },
   ]
   github = [{ text: 'github', link: 'https://www.github.com/jasmeet107' }]
+  instagram = [
+    { text: 'instagram', link: 'http://www.instagram.com/jasmeet107' },
+  ]
   about = [{ text: 'about', link: '/' }]
 
   public render(): JSX.Element {
@@ -18,6 +21,7 @@ class Contact extends React.PureComponent {
         <Descriptor descriptorText={this.email}></Descriptor>
         <Descriptor descriptorText={this.linkedIn}></Descriptor>
         <Descriptor descriptorText={this.github}></Descriptor>
+        <Descriptor descriptorText={this.instagram}></Descriptor>
         <Descriptor descriptorText={this.about}></Descriptor>
       </div>
     )
