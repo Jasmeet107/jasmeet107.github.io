@@ -6,7 +6,6 @@
 // D7E3FC
 // E2EAFC
 // EDF2FB
-
 .wrapper {
   display: -webkit-box;
   display: -moz-box;
@@ -17,4 +16,11 @@
   justify-content: center;
   height: 100vh;
   background-color: #abc4ff;
+  flex-direction: column;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
