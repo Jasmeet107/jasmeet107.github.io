@@ -2,7 +2,7 @@
 import '@fontsource/catamaran'
 import * as React from 'react'
 import * as styles from './styles.module.scss'
-import Descriptor from '../Descriptor/descriptor'
+import Descriptor from '../Descriptor'
 
 class Subtitle extends React.PureComponent {
   pupParent(): JSX.Element {
@@ -65,8 +65,12 @@ class Subtitle extends React.PureComponent {
 
   softwareEngineerDescriptorText = [
     {
-      text: 'software engineer',
+      text: 'software ',
       link: 'https://www.linkedin.com/in/arorajasmeet/',
+    },
+    {
+      text: 'engineer',
+      link: 'https://github.com/Jasmeet107',
     },
     {
       text: ' at ',
@@ -102,6 +106,12 @@ class Subtitle extends React.PureComponent {
     },
     { text: 'photographer', link: 'https://www.instagram.com/jasmeet107/' },
   ]
+  contactMe = [
+    {
+      text: 'contact',
+      link: '/contact',
+    },
+  ]
 
   photographer(): JSX.Element {
     return (
@@ -134,6 +144,7 @@ class Subtitle extends React.PureComponent {
         <Descriptor
           descriptorText={this.photographerDescriptorText}
         ></Descriptor>
+        <Descriptor descriptorText={this.contactMe}></Descriptor>
       </div>
     )
   }

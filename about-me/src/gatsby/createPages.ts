@@ -24,7 +24,7 @@ const urlEntries: UrlEntry[] = [
     slug: null,
   },
   {
-    entryName: 'articlesOverview',
+    entryName: 'contact',
     slug: null,
   },
   {

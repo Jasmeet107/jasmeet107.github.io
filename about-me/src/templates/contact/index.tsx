@@ -1,10 +1,12 @@
 import * as React from 'react'
 import * as styles from './styles.module.scss'
+import Contact from 'components/Contact'
+
 import { Helmet } from 'react-helmet'
 
-import Subtitle from 'components/Subtitle'
 import Title from 'components/Title'
-class HomePage extends React.Component {
+
+class ContactPage extends React.Component {
   public render(): JSX.Element {
     return (
       <div className={styles.wrapper}>
@@ -12,10 +14,10 @@ class HomePage extends React.Component {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
         </Helmet>
         <Title />
-        <Subtitle />
+        <Contact />
       </div>
     )
   }
 }
 
-export default HomePage
+export default ContactPage
