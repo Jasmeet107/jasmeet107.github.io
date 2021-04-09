@@ -22,7 +22,13 @@ class Descriptor extends React.PureComponent<DescriptorProps> {
         {descriptorText.map(
           ({ text, link }, index): JSX.Element => {
             return link ? (
-              <a href={link} key={index} className={styles.link}>
+              <a
+                href={link}
+                key={index}
+                className={styles.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {text}
               </a>
             ) : (

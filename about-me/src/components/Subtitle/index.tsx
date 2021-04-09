@@ -147,7 +147,11 @@ class Subtitle extends React.PureComponent {
           ></Descriptor>
         </div>
         <div className={styles.contact}>
-          <a href="mailto:jasmeet357@gmail.com" target="__blank">
+          <a
+            href="mailto:jasmeet357@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="2vw"
@@ -161,7 +165,11 @@ class Subtitle extends React.PureComponent {
             </svg>
           </a>
 
-          <a href="http://www.linkedin.com/in/arorajasmeet" target="__blank">
+          <a
+            href="http://www.linkedin.com/in/arorajasmeet"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="2vw"
@@ -174,7 +182,11 @@ class Subtitle extends React.PureComponent {
               />
             </svg>
           </a>
-          <a href="http://www.github.com/jasmeet107" target="__blank">
+          <a
+            href="http://www.github.com/jasmeet107"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="2vw"
@@ -187,7 +199,11 @@ class Subtitle extends React.PureComponent {
               />
             </svg>
           </a>
-          <a href="http://www.instagram.com/jasmeet107" target="__blank">
+          <a
+            href="http://www.instagram.com/jasmeet107"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="2vw"
