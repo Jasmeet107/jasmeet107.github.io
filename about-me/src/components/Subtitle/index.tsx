@@ -35,7 +35,7 @@ class Subtitle extends React.PureComponent {
       <div>
         <a
           className={styles.link}
-          href="https://www.linkedin.com/in/arorajasmeet/"
+          href="https://www.youtube.com/watch?v=J-qHcIapgfY"
         >
           software engineer
         </a>{' '}
