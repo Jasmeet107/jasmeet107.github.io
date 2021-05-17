@@ -68,7 +68,7 @@ class Subtitle extends React.PureComponent {
   softwareEngineerDescriptorText = [
     {
       text: 'software engineer',
-      link: 'https://www.linkedin.com/in/arorajasmeet/',
+      link: 'https://www.youtube.com/watch?v=J-qHcIapgfY',
     },
     {
       text: ' at ',
