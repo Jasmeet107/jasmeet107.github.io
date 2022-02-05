@@ -10,6 +10,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sass',
       options: {
+        implementation: require('sass'),
         data: '@import "main.scss";',
         includePaths: ['src/styles'],
         postCssPlugins: [

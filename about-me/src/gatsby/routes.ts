@@ -5,8 +5,6 @@ import { Templates } from './types'
  */
 const routes: { [key in Templates]: string } = {
   home: '/',
-  articles: 'articles',
-  articlesOverview: 'articlesOverview',
   contact: 'contact',
 }
 

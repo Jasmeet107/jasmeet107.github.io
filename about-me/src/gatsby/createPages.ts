@@ -27,13 +27,10 @@ const urlEntries: UrlEntry[] = [
     entryName: 'contact',
     slug: null,
   },
-  {
-    entryName: 'articles',
-    slug: 'entry-1',
-  },
 ]
 
 const createPages: GatsbyCreatePages = ({ actions: { createPage } }): void =>
+  // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
   urlEntries.forEach(entry =>
     createPage({
       path: resolveEntryPath(entry),
