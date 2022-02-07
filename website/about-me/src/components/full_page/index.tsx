@@ -29,7 +29,7 @@ class FullPage extends React.PureComponent {
         {
           text: "notarize ",
           link: "https://www.notarize.com/eng/author/jasmeet-arora",
-          linkStyle: "pink",
+          linkStyle: "green",
         },
       ],
     ];
@@ -51,7 +51,7 @@ class FullPage extends React.PureComponent {
         {
           text: "pup ",
           link: "https://www.instagram.com/mr.stanley.k",
-          linkStyle: "green",
+          linkStyle: "pink",
         },
         {
           text: "parent ",
