@@ -3,5 +3,9 @@ module.exports = {
     title: `About Me`,
     siteUrl: `https://www.jasme.et`,
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-typescript"],
+  plugins: [
+    "gatsby-plugin-sass",
+    "gatsby-plugin-typescript",
+    "gatsby-plugin-react-helmet",
+  ],
 };
