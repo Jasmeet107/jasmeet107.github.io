@@ -8,7 +8,14 @@ class Index extends React.PureComponent {
     return (
       <>
         <Helmet>
-          <meta name="icon" href="/src/assets/images/sass.png" />
+          <title>jasmeet</title>
+          <meta name="jasmeet" />
+          <link
+            rel="icon"
+            type="image/png"
+            href="./images/sass.png"
+            sizes="16x16"
+          />
         </Helmet>
         <div className={styles.Index}>
           <FullPage />
