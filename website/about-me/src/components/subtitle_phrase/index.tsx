@@ -22,7 +22,9 @@ class SubtitlePhrase extends React.PureComponent<Props> {
             return (
               <div className={styles.word}>
                 <div className={styles[phraseLink["linkStyle"]]}>
-                  <a href={phraseLink.link}>{phraseLink.text}</a>
+                  <a href={phraseLink.link} target="_blank">
+                    {phraseLink.text}
+                  </a>
                 </div>
               </div>
             );

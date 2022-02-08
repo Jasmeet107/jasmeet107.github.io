@@ -36,6 +36,20 @@
   align-items: center;
 }
 
+.Haha {
+  color: black;
+  font-family: "Poppins";
+  font-size: 1vw;
+  a {
+    &:visited {
+      color: black;
+    }
+    &:hover {
+      background-color: #ffffff;
+    }
+  }
+}
+
 .Contact {
   font-family: "Poppins";
   font-size: 2vw;
@@ -68,5 +82,9 @@ a {
 
   .Contact {
     font-size: 4vw;
+  }
+
+  .Haha {
+    font-size: 2vw;
   }
 }

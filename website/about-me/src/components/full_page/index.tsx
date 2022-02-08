@@ -4,6 +4,7 @@ import "@fontsource/sacramento";
 import "@fontsource/poppins";
 
 import Contact from "../contact";
+import Haha from "../haha";
 import SubtitleLine from "../subtitle_line/index";
 
 class FullPage extends React.PureComponent {
@@ -13,6 +14,7 @@ class FullPage extends React.PureComponent {
         {
           text: "she/her ",
           link: null,
+          linkStyle: null,
         },
       ],
       [
@@ -71,6 +73,9 @@ class FullPage extends React.PureComponent {
           </div>
           <div className={styles.Contact}>
             <Contact />
+          </div>
+          <div className={styles.Haha}>
+            <Haha />
           </div>
         </div>
       </div>
