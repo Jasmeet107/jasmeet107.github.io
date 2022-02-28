@@ -6,7 +6,7 @@ class Haha extends React.PureComponent {
     return (
       <div>
         <a href="https://github.com/scala/scala/pull/5310" target="_blank">
-          when the scala team needed my approval
+          my proudest open source contribution
         </a>
       </div>
     );
