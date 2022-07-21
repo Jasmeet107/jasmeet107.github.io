@@ -30,7 +30,7 @@ class FullPage extends React.PureComponent {
         },
         {
           text: "notarize ",
-          link: "https://www.notarize.com/eng/author/jasmeet-arora",
+          link: "https://go.notarize.com/eng/author/jasmeet-arora",
           linkStyle: "green",
         },
       ],
