@@ -20,8 +20,8 @@ class Contact extends React.PureComponent {
       ],
       [
         {
-          text: "github",
-          link: "http://www.github.com/jasmeet107",
+          text: "medium",
+          link: "https://medium.com/@jasmeet.",
           linkStyle: "blue",
         },
       ],
