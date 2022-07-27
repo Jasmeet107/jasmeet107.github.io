@@ -2,7 +2,7 @@ import * as React from "react";
 import * as styles from "./styles.module.scss";
 import "@fontsource/sacramento";
 import "@fontsource/poppins";
-
+import "@fontsource/commissioner/300.css";
 import Contact from "../contact";
 import Haha from "../haha";
 import SubtitleLine from "../subtitle_line/index";

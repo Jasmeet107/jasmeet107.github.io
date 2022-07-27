@@ -13,9 +13,11 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
+    "@fontsource/commissioner": "^4.5.7",
+    "@fontsource/montserrat-alternates": "^4.5.9",
     "@fontsource/poppins": "^4.5.1",
     "@fontsource/sacramento": "^4.5.1",
     "@types/react-helmet": "^6.1.5",
