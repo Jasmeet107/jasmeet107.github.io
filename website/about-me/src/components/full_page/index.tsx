@@ -45,7 +45,7 @@ class FullPage extends React.PureComponent {
         },
         {
           text: "photographer ",
-          link: "https://www.instagram.com/jasmeet107",
+          link: "https://photography.jasme.et",
           linkStyle: "yellow",
         },
       ],

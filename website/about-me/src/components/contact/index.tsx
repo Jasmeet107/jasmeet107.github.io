@@ -27,8 +27,8 @@ class Contact extends React.PureComponent {
       ],
       [
         {
-          text: "500px",
-          link: "https://500px.com/p/jasmeet107?view=photos",
+          text: "instagram",
+          link: "https://www.instagram.com/jasmeet107",
           linkStyle: "lavender",
         },
       ],
