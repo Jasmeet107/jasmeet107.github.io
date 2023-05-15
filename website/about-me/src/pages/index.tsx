@@ -2,6 +2,7 @@ import * as React from "react";
 import * as styles from "./styles.module.scss";
 import FullPage from "../components/full_page";
 import { Helmet } from "react-helmet";
+import favicon from '../assets/images/sass.ico';
 
 class Index extends React.PureComponent {
   public render(): JSX.Element {
@@ -13,7 +14,7 @@ class Index extends React.PureComponent {
           <link
             rel="icon"
             type="image/png"
-            href="./images/sass.png"
+            href={favicon}
             sizes="16x16"
           />
         </Helmet>
