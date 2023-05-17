@@ -8,9 +8,7 @@ class About extends React.PureComponent<Props> {
         <div className={styles.About}>
           <div className={styles.aboutPhrase}>software engineer</div> |
           <div className={styles.aboutPhrase}>photographer</div> |
-          <div className={styles.aboutPhrase}>
-            amateur crossword constructor
-          </div>
+          <div className={styles.aboutPhrase}>crossword constructor</div>
         </div>
 
         <div className={styles.Contact}>
@@ -19,25 +17,25 @@ class About extends React.PureComponent<Props> {
               email
             </a>
           </div>
-          -
+          <div className={styles.spacer}>-</div>
           <div className={styles.contactPhrase}>
             <a href="https://photography.jasme.et" target="_blank">
               photography
             </a>
           </div>
-          -
+          <div className={styles.spacer}>-</div>
           <div className={styles.contactPhrase}>
             <a href="http://www.linkedin.com/in/arorajasmeet" target="_blank">
               linkedin
             </a>
           </div>
-          -
+          <div className={styles.spacer}>-</div>
           <div className={styles.contactPhrase}>
             <a href="https://www.instagram.com/jasmeet107" target="_blank">
               instagram
             </a>
           </div>
-          -
+          <div className={styles.spacer}>-</div>
           <div className={styles.contactPhrase}>
             <a href="https://medium.com/@jasmeet." target="_blank">
               medium

@@ -23,6 +23,23 @@
   margin-left: 0.6vw;
 }
 
+@media only screen and (max-width: 1000px) {
+  .spacer {
+    visibility: hidden;
+  }
+  .About {
+    font-size: 3vw;
+  }
+  .Contact {
+    flex-direction: column;
+    margin-right: 0vw;
+    margin-left: 0vw;
+    align-items: center;
+    font-size: 3.5vw;
+    margin-top: 4vh;
+  }
+}
+
 .contactPhrase {
   transition: 0.3s;
 

@@ -13,30 +13,6 @@
   flex-direction: row;
 }
 
-// .container {
-//   position: relative;
-//   background: black;
-//   display: flex;
-//   z-index: 0;
-//   color: white;
-//   justify-content: center;
-// }
-
-// .description {
-//   margin-top: 7vh;
-// }
-.title {
-  font-family: "Sacramento";
-  font-size: 8vw;
-  font-weight: bold;
-  color: #ffffff;
-}
-
-.subtitle {
-  color: #ffffff;
-  font-family: "Commissioner";
-}
-
 .FullPage {
   display: flex;
   z-index: 2;
@@ -47,42 +23,13 @@
   height: 100vh;
 }
 
-// .container {
-//   display: flex;
-//   flex-direction: column;
-//   row-gap: 2.5vw;
-//   align-items: center;
-// }
-
-.title {
-  font-family: "Sacramento";
-  font-size: 6vw;
-  color: #ffffff;
-}
-
 .Description {
   display: flex;
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  width: 100%;
   row-gap: 2.5vw;
   margin-left: 6vw;
-}
-
-.Haha {
-  color: black;
-  font-family: "Commissioner";
-  font-size: 1vw;
-  a {
-    color: black;
-    &:visited {
-      color: black;
-    }
-    &:hover {
-      background-color: #ffffff;
-    }
-  }
 }
 
 .Contact {
@@ -97,6 +44,13 @@
 a {
   text-decoration-thickness: from-font;
   text-underline-offset: 0.5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Description {
+    margin: 0;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {

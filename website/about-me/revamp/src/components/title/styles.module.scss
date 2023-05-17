@@ -7,3 +7,9 @@
   color: #ffffff;
   justify-content: left;
 }
+
+@media only screen and (max-width: 1000px) {
+  .Title {
+    font-size: 16vw;
+  }
+}
