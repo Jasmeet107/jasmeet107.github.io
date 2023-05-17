@@ -1,67 +1,50 @@
 import * as React from "react";
 import * as styles from "./styles.module.scss";
-import SubtitleLine from "../subtitle_line/index";
 
 class About extends React.PureComponent<Props> {
   public render(): JSX.Element {
-    const firstLine = [
-      [
-        {
-          text: "she/her ",
-          link: null,
-          linkStyle: null,
-        },
-      ],
-      [
-        {
-          text: "software engineer ",
-          link: "https://www.youtube.com/watch?v=J-qHcIapgfY",
-          linkStyle: "purple",
-        },
-        {
-          text: "at ",
-          link: null,
-          linkStyle: null,
-        },
-        {
-          text: "notarize ",
-          link: "https://go.notarize.com/eng/author/jasmeet-arora",
-          linkStyle: "green",
-        },
-      ],
-    ];
-
-    const secondLine = [
-      [
-        {
-          text: "amateur ",
-          link: null,
-          linkStyle: null,
-        },
-        {
-          text: "photographer ",
-          link: "https://photography.jasme.et",
-          linkStyle: "yellow",
-        },
-      ],
-      [
-        {
-          text: "pup ",
-          link: "https://www.instagram.com/mr.stanley.k",
-          linkStyle: "pink",
-        },
-        {
-          text: "parent ",
-          link: null,
-          linkStyle: null,
-        },
-      ],
-    ];
     return (
-      <div className={styles.About}>
-        <SubtitleLine linkTextMaps={firstLine} />
-        <SubtitleLine linkTextMaps={secondLine} />
-      </div>
+      <>
+        <div className={styles.About}>
+          <div className={styles.aboutPhrase}>software engineer</div> |
+          <div className={styles.aboutPhrase}>photographer</div> |
+          <div className={styles.aboutPhrase}>
+            amateur crossword constructor
+          </div>
+        </div>
+
+        <div className={styles.Contact}>
+          <div className={styles.contactPhrase}>
+            <a href="mailto:hello@jasme.et" target="_blank">
+              email
+            </a>
+          </div>
+          -
+          <div className={styles.contactPhrase}>
+            <a href="https://photography.jasme.et" target="_blank">
+              photography
+            </a>
+          </div>
+          -
+          <div className={styles.contactPhrase}>
+            <a href="http://www.linkedin.com/in/arorajasmeet" target="_blank">
+              linkedin
+            </a>
+          </div>
+          -
+          <div className={styles.contactPhrase}>
+            <a href="https://www.instagram.com/jasmeet107" target="_blank">
+              instagram
+            </a>
+          </div>
+          -
+          <div className={styles.contactPhrase}>
+            <a href="https://medium.com/@jasmeet." target="_blank">
+              medium
+            </a>
+          </div>
+        </div>
+      </>
     );
   }
 }

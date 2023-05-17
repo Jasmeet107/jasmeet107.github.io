@@ -2,6 +2,7 @@ import * as React from "react";
 import FullPage from "../components/full_page/index";
 import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "./styles.module.scss";
+import favicon from "../images/sass.ico";
 
 const IndexPage = () => {
   return (
@@ -20,6 +21,13 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => {
+  return (
+    <>
+      <title>jasmeet</title>
+      <link rel="icon" type="image/png" href={favicon} sizes="16x16" />
+    </>
+  );
+};
 
 export default IndexPage;

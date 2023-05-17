@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@fontsource/commissioner": "^4.5.10",
+    "@fontsource/lobster-two": "^4.5.10",
     "@fontsource/sacramento": "^4.5.9",
     "gatsby": "^5.9.1",
     "gatsby-plugin-image": "^3.9.0",

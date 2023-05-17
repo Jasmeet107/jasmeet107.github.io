@@ -1,15 +1,51 @@
-.About {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+.About,
+.Contact {
+  color: #ffffff;
   font-family: "Commissioner";
-  font-size: 2vw;
-  font-weight: 100;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
-@media only screen and (max-width: 600px) {
-  .About {
-    font-size: 4vw;
+.About {
+  font-size: 2vw;
+}
+
+.Contact {
+  font-size: 1.5vw;
+}
+.aboutPhrase,
+.contactPhrase {
+  margin-right: 0.6vw;
+}
+
+.About > :not(:first-child),
+.Contact > :not(:first-child) {
+  margin-left: 0.6vw;
+}
+
+.contactPhrase {
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
   }
+  a {
+    color: #ffffff;
+  }
+}
+
+a:link {
+  text-decoration: underline underline;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
