@@ -1,0 +1,15 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Commissioner";
+  font-size: 2vw;
+  font-weight: 100;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .About {
+    font-size: 4vw;
+  }
+}
