@@ -1,0 +1,15 @@
+.Title {
+  display: flex;
+  font-family: "Lobster Two";
+  font-size: 9vw;
+  padding-left: 1vw;
+  font-weight: bold;
+  color: #ffffff;
+  justify-content: left;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Title {
+    font-size: 16vw;
+  }
+}
