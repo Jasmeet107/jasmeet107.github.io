@@ -23,6 +23,10 @@
   margin-left: 0.6vw;
 }
 
+.spacer {
+  margin-left: 0 !important;
+}
+
 @media only screen and (max-width: 1000px) {
   .spacer {
     visibility: hidden;
