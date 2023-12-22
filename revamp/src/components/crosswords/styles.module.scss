@@ -1,0 +1,77 @@
+.CrosswordList {
+  color: #ffffff;
+  font-family: "Commissioner";
+  display: flex;
+  flex-direction: column;
+  font-size: 1.75vw;
+}
+
+.crosswordItem {
+  color: #ffffff;
+  margin-top: 0.6vw;
+  margin-bottom: 0.9vw;
+  a:link {
+    text-decoration: underline underline;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+}
+
+.crosswordLink {
+  color: #ffffff;
+  transition: 0.3s;
+
+  &:hover {
+    display: inline-block;
+    text-decoration: none;
+    transform: translateY(-5px);
+  }
+}
+
+// .CrosswordList {
+//   font-size: 2vw;
+// }
+
+// .CrosswordList {
+//   font-size: 1.5vw;
+// }
+// .aboutPhrase,
+// .contactPhrase {
+//   margin-right: 0.6vw;
+// }
+
+// .About > :not(:first-child),
+// .Contact > :not(:first-child) {
+//   margin-left: 0.6vw;
+// }
+
+// .spacer {
+//   margin-left: 0 !important;
+// }
+
+@media only screen and (max-width: 1000px) {
+  .CrosswordList {
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    font-size: 2.5vw;
+  }
+}
+
+.contactPhrase {
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+  a {
+    color: #ffffff;
+  }
+}
