@@ -25,9 +25,7 @@ class About extends React.PureComponent<Props> {
           </div>
           <div className={styles.spacer}>-</div>
           <div className={styles.contactPhrase}>
-            <a href="https://crosshare.org/jasmeet" target="_blank">
-              crosswords
-            </a>
+            <a href="/crosswords">crosswords</a>
           </div>
           <div className={styles.spacer}>-</div>
           <div className={styles.contactPhrase}>
