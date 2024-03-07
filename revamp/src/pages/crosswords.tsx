@@ -10,7 +10,7 @@ const CrosswordsPage = () => {
       <div className={styles.container}>
         <StaticImage
           layout="fullWidth"
-          className={styles.backgroundImage}
+          className={styles.backgroundImageCrosswords}
           src="../images/background.jpg"
           alt=""
           transformOptions={{ fit: "outside" }}

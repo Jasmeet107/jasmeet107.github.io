@@ -13,7 +13,7 @@ const CrosswordFullPage = () => {
     <>
       <div className={styles.FullPage}>
         <div className={styles.Description}>
-          <Crosswords></Crosswords>
+          <div className={styles.CrosswordContainer}></div>
         </div>
       </div>
     </>
