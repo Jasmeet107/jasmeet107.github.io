@@ -7,6 +7,47 @@ class Crosswords extends React.PureComponent<Props> {
       <>
         <div className={styles.CrosswordList}>
           <div className={styles.crosswordItem}>
+            <a
+              className={styles.crosswordLink}
+              href="https://crosswords.jasme.et/"
+              target="_blank"
+            >
+              click here
+            </a>{" "}
+            to solve my self-published xwords
+          </div>
+          <div>~</div>
+          <div className={styles.crosswordItem}>bylines:</div>
+          <div className={styles.crosswordItem}>
+            2024.04.05 - USA Today - First Class by Jasmeet Arora |{" "}
+            <a
+              className={styles.crosswordLink}
+              href="https://www.usatoday.com/story/entertainment/puzzles/crosswords/sally-hoelscher/2024/04/05/daily-crossword-analysis/73157194007/"
+              target="_blank"
+            >
+              solution
+            </a>
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.03.19 - Lil AVC X - Inner Peace by Jasmeet Arora |{" "}
+            <a
+              className={styles.crosswordLink}
+              href="https://avxwords.com/puzzles/1536/"
+              target="_blank"
+            >
+              puzzle
+            </a>
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.03.19 - Apple News+ - Freestyle by Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.03.11 - Apple News+ - Metamorphosis by Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.03.02 - Crossword Flow - Mini by Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
             2023.12.19 - USA Today - Latte Art (Freestyle) by Jasmeet Arora |{" "}
             <a
               className={styles.crosswordLink}
