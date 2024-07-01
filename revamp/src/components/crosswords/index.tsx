@@ -18,6 +18,48 @@ class Crosswords extends React.PureComponent<Props> {
           </div>
           <div>~</div>
           <div className={styles.crosswordItem}>bylines:</div>
+          <div className={styles.bylinesContainer}>
+          <div className={styles.crosswordItem}>
+            2024.07.01 - Apple News+ - Icebreaker Games by Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.06.23 - Lil AVC X - Period Play by Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.06.22 - USA Today - All Over the Place by Brooke Husic & Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.05.14 - Apple News+ - Freestyle by Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.05.13 - USA Today - C'Mon, Hurry Up! by Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.05.07 - Universal - Snack Mix by Jasmeet Arora & Amie Walker
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.05.07 - USA Today - Playwriting by Brooke Husic & Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.05.06 - Lil AVC X - don't interrupt! by Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.05.06 - Apple News+ - Disappointing Groceries by Jasmeet Arora & Sally Hoelscher
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.05.01 - USA Today - All Kid-ding Aside by Jasmeet Arora & Amie Walker | {" "}
+            <a
+              className={styles.crosswordLink}
+              href="https://www.usatoday.com/story/entertainment/puzzles/crosswords/sally-hoelscher/2024/05/01/daily-crossword-analysis/73511550007/"
+              target="_blank"
+            >
+              solution
+            </a>
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.04.27 - Crossword Flow - Mini by Jasmeet Arora
+          </div>
+          
           <div className={styles.crosswordItem}>
             2024.04.05 - USA Today - First Class by Jasmeet Arora |{" "}
             <a
@@ -112,6 +154,7 @@ class Crosswords extends React.PureComponent<Props> {
             >
               solution
             </a>
+          </div>
           </div>
           <div className={styles.crosswordItem}>
             <a className={styles.crosswordLink} href="/">
