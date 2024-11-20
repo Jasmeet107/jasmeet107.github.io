@@ -20,6 +20,15 @@ class Crosswords extends React.PureComponent<Props> {
           <div className={styles.crosswordItem}>bylines:</div>
           <div className={styles.bylinesContainer}>
           <div className={styles.crosswordItem}>
+            2024.07.28 - Universal - Themeless Sunday 95 by Jasmeet Arora & Rafael Musa
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.07.25 - Crossword Flow - Mini by Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
+            2024.07.08 - USA Today - I'm With You by Amie Walker & Jasmeet Arora
+          </div>
+          <div className={styles.crosswordItem}>
             2024.07.01 - Apple News+ - Icebreaker Games by Jasmeet Arora
           </div>
           <div className={styles.crosswordItem}>
